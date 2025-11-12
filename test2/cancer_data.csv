@@ -1,0 +1,322 @@
+Year,Sex,Site,County,Polk,Cancer,Rate,SE,Lower CI,Upper CI,Count,Rate~Ratio,Ratio~Lower CI,Ratio~Upper CI,Ratio~P-Value,Pop,Rate,Sig
+2003-2007,Male and female,All Sites,IA: Polk County (19153),Polk County, 492.7 ,492.7,5.2,482.6,502.9,"9,195",,,,,"1,998,485",492.7,0
+2003-2007,Male and female,All Sites,Not Polk,Not Polk, 488.6 ,488.6,1.8,485,492.2,"73,456",0.9917,0.9703,1.0138,0.4605,"12,843,459",488.6,0
+2003-2007,Male,All Sites,IA: Polk County (19153),Polk County, 562.3 ,562.3,8.6,545.5,579.5,"4,488",,,,,"975,346",562.3,0
+2003-2007,Male,All Sites,Not Polk,Not Polk, 570.8 ,570.8,2.9,565.1,576.6,"38,340",1.0151,0.9834,1.0481,0.359,"6,341,637",570.8,0
+2003-2007,Female,All Sites,IA: Polk County (19153),Polk County, 451.3 ,451.3,6.6,438.4,464.5,"4,707",,,,,"1,023,139",451.3,0
+2003-2007,Female,All Sites,Not Polk,Not Polk, 431.9 ,431.9#,2.4,427.3,436.6,"35,116",0.9571,0.928,0.9872,0.0056,"6,501,822",431.9,1
+2008-2012,Male and female,All Sites,IA: Polk County (19153),Polk County, 495.1 ,495.1,5,485.4,504.9,"10,281",,,,,"2,161,866",495.1,0
+2008-2012,Male and female,All Sites,Not Polk,Not Polk, 487.9 ,487.9,1.8,484.4,491.4,"77,089",0.9856,0.9651,1.0066,0.1765,"13,091,838",487.9,0
+2008-2012,Male,All Sites,IA: Polk County (19153),Polk County, 556.7 ,556.7,8.1,540.9,572.9,"5,072",,,,,"1,060,528",556.7,0
+2008-2012,Male,All Sites,Not Polk,Not Polk, 552.8 ,552.8,2.8,547.3,558.3,"40,176",0.9929,0.9633,1.0236,0.647,"6,496,224",552.8,0
+2008-2012,Female,All Sites,IA: Polk County (19153),Polk County, 456.9 ,456.9,6.4,444.4,469.7,"5,209",,,,,"1,101,338",456.9,0
+2008-2012,Female,All Sites,Not Polk,Not Polk, 442.4 ,442.4#,2.4,437.7,447.1,"36,913",0.9682,0.94,0.9975,0.0336,"6,595,614",442.4,1
+2013-2017,Male and female,All Sites,IA: Polk County (19153),Polk County, 476.5 ,476.5,4.6,467.4,485.7,"11,107",,,,,"2,333,573",476.5,0
+2013-2017,Male and female,All Sites,Not Polk,Not Polk, 491.4 ,491.4#,1.8,487.9,494.9,"81,304",1.0313,1.0105,1.0526,0.003,"13,338,399",491.4,1
+2013-2017,Male,All Sites,IA: Polk County (19153),Polk County, 526.7 ,526.7,7.4,512.3,541.4,"5,544",,,,,"1,150,867",526.7,0
+2013-2017,Male,All Sites,Not Polk,Not Polk, 537.0 ,537,2.7,531.8,542.3,"42,069",1.0196,0.9902,1.05,0.1945,"6,661,247",537,0
+2013-2017,Female,All Sites,IA: Polk County (19153),Polk County, 445.1 ,445.1,6.1,433.2,457.2,"5,563",,,,,"1,182,706",445.1,0
+2013-2017,Female,All Sites,Not Polk,Not Polk, 460.9 ,460.9#,2.4,456.2,465.7,"39,235",1.0355,1.006,1.0659,0.0176,"6,677,152",460.9,1
+2018-2022,Male and female,All Sites,IA: Polk County (19153),Polk County, 497.8 ,497.8,4.5,489.1,506.6,"13,003",,,,,"2,466,534",497.8,0
+2018-2022,Male and female,All Sites,Not Polk,Not Polk, 499.5 ,499.5,1.8,496,502.9,"87,242",1.0034,0.9846,1.0226,0.7321,"13,477,009",499.5,0
+2018-2022,Male,All Sites,IA: Polk County (19153),Polk County, 532.8 ,532.8,6.9,519.3,546.6,"6,407",,,,,"1,224,181",532.8,0
+2018-2022,Male,All Sites,Not Polk,Not Polk, 548.2 ,548.2#,2.6,543,553.4,"46,240",1.0288,1.0012,1.0574,0.0404,"6,760,840",548.2,1
+2018-2022,Female,All Sites,IA: Polk County (19153),Polk County, 480.4 ,480.4,6,468.6,492.4,"6,596",,,,,"1,242,353",480.4,0
+2018-2022,Female,All Sites,Not Polk,Not Polk, 465.1 ,465.1#,2.4,460.4,469.9,"41,002",0.9682,0.9427,0.9945,0.0183,"6,716,169",465.1,1
+2003-2007,Male and female,Lung and Bronchus,IA: Polk County (19153),Polk County, 81.2 ,81.2,2.1,77.1,85.5,"1,472",,,,,"1,998,485",81.2,0
+2003-2007,Male and female,Lung and Bronchus,Not Polk,Not Polk, 68.0 ,68.0#,0.7,66.7,69.4,"10,386",0.8379,0.793,0.8859,0,"12,843,459",68,1
+2003-2007,Male,Lung and Bronchus,IA: Polk County (19153),Polk County, 98.3 ,98.3,3.7,91.3,105.8,757,,,,,"975,346",98.3,0
+2003-2007,Male,Lung and Bronchus,Not Polk,Not Polk, 88.8 ,88.8#,1.2,86.6,91.1,"5,978",0.9033,0.8361,0.9772,0.0114,"6,341,637",88.8,1
+2003-2007,Female,Lung and Bronchus,IA: Polk County (19153),Polk County, 69.4 ,69.4,2.6,64.4,74.8,715,,,,,"1,023,139",69.4,0
+2003-2007,Female,Lung and Bronchus,Not Polk,Not Polk, 52.8 ,52.8#,0.8,51.2,54.4,"4,408",0.7598,0.7013,0.8243,0,"6,501,822",52.8,1
+2008-2012,Male and female,Lung and Bronchus,IA: Polk County (19153),Polk County, 75.6 ,75.6,2,71.8,79.6,"1,519",,,,,"2,161,866",75.6,0
+2008-2012,Male and female,Lung and Bronchus,Not Polk,Not Polk, 65.2 ,65.2#,0.6,64,66.5,"10,542",0.8628,0.8168,0.912,0,"13,091,838",65.2,1
+2008-2012,Male,Lung and Bronchus,IA: Polk County (19153),Polk County, 89.3 ,89.3,3.3,82.9,96,772,,,,,"1,060,528",89.3,0
+2008-2012,Male,Lung and Bronchus,Not Polk,Not Polk, 81.5 ,81.5#,1.1,79.4,83.6,"5,915",0.9125,0.8445,0.9874,0.023,"6,496,224",81.5,1
+2008-2012,Female,Lung and Bronchus,IA: Polk County (19153),Polk County, 66.3 ,66.3,2.5,61.6,71.3,747,,,,,"1,101,338",66.3,0
+2008-2012,Female,Lung and Bronchus,Not Polk,Not Polk, 52.8 ,52.8#,0.8,51.3,54.4,"4,627",0.7965,0.736,0.863,0,"6,595,614",52.8,1
+2013-2017,Male and female,Lung and Bronchus,IA: Polk County (19153),Polk County, 69.9 ,69.9,1.8,66.4,73.6,"1,588",,,,,"2,333,573",69.9,0
+2013-2017,Male and female,Lung and Bronchus,Not Polk,Not Polk, 63.7 ,63.7#,0.6,62.5,64.9,"10,971",0.9108,0.8628,0.9621,0.0009,"13,338,399",63.7,1
+2013-2017,Male,Lung and Bronchus,IA: Polk County (19153),Polk County, 84.0 ,84,3,78.2,90.1,847,,,,,"1,150,867",84,0
+2013-2017,Male,Lung and Bronchus,Not Polk,Not Polk, 74.6 ,74.6#,1,72.7,76.6,"5,898",0.8888,0.8244,0.9594,0.0026,"6,661,247",74.6,1
+2013-2017,Female,Lung and Bronchus,IA: Polk County (19153),Polk County, 60.0 ,60,2.3,55.7,64.6,741,,,,,"1,182,706",60,0
+2013-2017,Female,Lung and Bronchus,Not Polk,Not Polk, 55.3 ,55.3#,0.8,53.8,56.9,"5,073",0.922,0.8519,0.9991,0.0475,"6,677,152",55.3,1
+2018-2022,Male and female,Lung and Bronchus,IA: Polk County (19153),Polk County, 62.6 ,62.6,1.6,59.5,65.7,"1,648",,,,,"2,466,534",62.6,0
+2018-2022,Male and female,Lung and Bronchus,Not Polk,Not Polk, 59.7 ,59.7,0.6,58.6,60.9,"11,125",0.9549,0.9054,1.0076,0.0922,"13,477,009",59.7,0
+2018-2022,Male,Lung and Bronchus,IA: Polk County (19153),Polk County, 67.9 ,67.9,2.5,63.1,73,803,,,,,"1,224,181",67.9,0
+2018-2022,Male,Lung and Bronchus,Not Polk,Not Polk, 67.2 ,67.2,0.9,65.5,69,"5,828",0.9899,0.9164,1.0706,0.808,"6,760,840",67.2,0
+2018-2022,Female,Lung and Bronchus,IA: Polk County (19153),Polk County, 58.9 ,58.9,2.1,54.9,63.1,845,,,,,"1,242,353",58.9,0
+2018-2022,Female,Lung and Bronchus,Not Polk,Not Polk, 54.0 ,54.0#,0.8,52.5,55.5,"5,297",0.9171,0.8514,0.9889,0.0246,"6,716,169",54,1
+2003-2007,Male and female,Melanoma,IA: Polk County (19153),Polk County, 15.4 ,15.4,0.9,13.6,17.2,296,,,,,"1,998,485",15.4,0
+2003-2007,Male and female,Melanoma,Not Polk,Not Polk, 19.4 ,19.4#,0.4,18.6,20.1,"2,736",1.261,1.117,1.4281,0.0001,"12,843,459",19.4,1
+2003-2007,Male,Melanoma,IA: Polk County (19153),Polk County, 18.6 ,18.6,1.5,15.8,21.9,161,,,,,"975,346",18.6,0
+2003-2007,Male,Melanoma,Not Polk,Not Polk, 22.8 ,22.8#,0.6,21.6,24,"1,514",1.2228,1.0341,1.4552,0.0177,"6,341,637",22.8,1
+2003-2007,Female,Melanoma,IA: Polk County (19153),Polk County, 13.2 ,13.2,1.1,11,15.6,135,,,,,"1,023,139",13.2,0
+2003-2007,Female,Melanoma,Not Polk,Not Polk, 17.2 ,17.2#,0.5,16.3,18.3,"1,222",1.3113,1.0952,1.5811,0.0026,"6,501,822",17.2,1
+2008-2012,Male and female,Melanoma,IA: Polk County (19153),Polk County, 18.1 ,18.1,0.9,16.3,20,377,,,,,"2,161,866",18.1,0
+2008-2012,Male and female,Melanoma,Not Polk,Not Polk, 24.9 ,24.9#,0.4,24.1,25.7,"3,657",1.3765,1.2354,1.5376,0,"13,091,838",24.9,1
+2008-2012,Male,Melanoma,IA: Polk County (19153),Polk County, 23.5 ,23.5,1.7,20.3,27,213,,,,,"1,060,528",23.5,0
+2008-2012,Male,Melanoma,Not Polk,Not Polk, 28.5 ,28.5#,0.6,27.3,29.8,"2,020",1.2137,1.0486,1.4122,0.0086,"6,496,224",28.5,1
+2008-2012,Female,Melanoma,IA: Polk County (19153),Polk County, 14.7 ,14.7,1.2,12.5,17.2,164,,,,,"1,101,338",14.7,0
+2008-2012,Female,Melanoma,Not Polk,Not Polk, 22.8 ,22.8#,0.6,21.7,24,"1,637",1.5556,1.3206,1.8433,0,"6,595,614",22.8,1
+2013-2017,Male and female,Melanoma,IA: Polk County (19153),Polk County, 22.6 ,22.6,1,20.7,24.7,531,,,,,"2,333,573",22.6,0
+2013-2017,Male and female,Melanoma,Not Polk,Not Polk, 28.6 ,28.6#,0.4,27.7,29.5,"4,387",1.2642,1.1524,1.3893,0,"13,338,399",28.6,1
+2013-2017,Male,Melanoma,IA: Polk County (19153),Polk County, 27.6 ,27.6,1.7,24.4,31.1,291,,,,,"1,150,867",27.6,0
+2013-2017,Male,Melanoma,Not Polk,Not Polk, 32.3 ,32.3#,0.7,31,33.7,"2,436",1.1734,1.0338,1.3368,0.0126,"6,661,247",32.3,1
+2013-2017,Female,Melanoma,IA: Polk County (19153),Polk County, 19.2 ,19.2,1.3,16.8,21.8,240,,,,,"1,182,706",19.2,0
+2013-2017,Female,Melanoma,Not Polk,Not Polk, 26.5 ,26.5#,0.6,25.3,27.8,"1,951",1.3843,1.2059,1.5951,0,"6,677,152",26.5,1
+2018-2022,Male and female,Melanoma,IA: Polk County (19153),Polk County, 29.0 ,29,1.1,26.9,31.2,745,,,,,"2,466,534",29,0
+2018-2022,Male and female,Melanoma,Not Polk,Not Polk, 33.5 ,33.5#,0.5,32.6,34.5,"5,422",1.1574,1.0698,1.2536,0.0002,"13,477,009",33.5,1
+2018-2022,Male,Melanoma,IA: Polk County (19153),Polk County, 36.0 ,36,1.8,32.5,39.8,419,,,,,"1,224,181",36,0
+2018-2022,Male,Melanoma,Not Polk,Not Polk, 37.2 ,37.2,0.7,35.9,38.7,"2,963",1.0334,0.929,1.1522,0.5643,"6,760,840",37.2,0
+2018-2022,Female,Melanoma,IA: Polk County (19153),Polk County, 24.5 ,24.5,1.4,21.9,27.4,326,,,,,"1,242,353",24.5,0
+2018-2022,Female,Melanoma,Not Polk,Not Polk, 31.6 ,31.6#,0.7,30.3,33,"2,459",1.2895,1.1447,1.4565,0,"6,716,169",31.6,1
+2003-2007,Male and female,Oral Cavity and Pharynx,IA: Polk County (19153),Polk County, 11.6 ,11.6,0.8,10.1,13.2,219,,,,,"1,998,485",11.6,0
+2003-2007,Male and female,Oral Cavity and Pharynx,Not Polk,Not Polk, 11.3 ,11.3,0.3,10.7,11.8,"1,680",0.9738,0.8445,1.1279,0.7363,"12,843,459",11.3,0
+2003-2007,Male,Oral Cavity and Pharynx,IA: Polk County (19153),Polk County, 16.9 ,16.9,1.4,14.2,19.9,145,,,,,"975,346",16.9,0
+2003-2007,Male,Oral Cavity and Pharynx,Not Polk,Not Polk, 17.3 ,17.3,0.5,16.3,18.3,"1,179",1.024,0.8577,1.2312,0.8327,"6,341,637",17.3,0
+2003-2007,Female,Oral Cavity and Pharynx,IA: Polk County (19153),Polk County, 7.1 ,7.1,0.8,5.6,8.9,74,,,,,"1,023,139",7.1,0
+2003-2007,Female,Oral Cavity and Pharynx,Not Polk,Not Polk, 6.1 ,6.1,0.3,5.6,6.7,501,0.8657,0.6751,1.1245,0.2825,"6,501,822",6.1,0
+2008-2012,Male and female,Oral Cavity and Pharynx,IA: Polk County (19153),Polk County, 11.6 ,11.6,0.8,10.2,13.2,247,,,,,"2,161,866",11.6,0
+2008-2012,Male and female,Oral Cavity and Pharynx,Not Polk,Not Polk, 12.1 ,12.1,0.3,11.5,12.6,"1,915",1.0361,0.905,1.1908,0.6336,"13,091,838",12.1,0
+2008-2012,Male,Oral Cavity and Pharynx,IA: Polk County (19153),Polk County, 17.4 ,17.4,1.4,14.8,20.2,172,,,,,"1,060,528",17.4,0
+2008-2012,Male,Oral Cavity and Pharynx,Not Polk,Not Polk, 18.5 ,18.5,0.5,17.6,19.6,"1,373",1.0681,0.9066,1.2655,0.4555,"6,496,224",18.5,0
+2008-2012,Female,Oral Cavity and Pharynx,IA: Polk County (19153),Polk County, 6.8 ,6.8,0.8,5.3,8.5,75,,,,,"1,101,338",6.8,0
+2008-2012,Female,Oral Cavity and Pharynx,Not Polk,Not Polk, 6.4 ,6.4,0.3,5.9,7,542,0.9452,0.7383,1.2265,0.6917,"6,595,614",6.4,0
+2013-2017,Male and female,Oral Cavity and Pharynx,IA: Polk County (19153),Polk County, 12.1 ,12.1,0.7,10.7,13.6,295,,,,,"2,333,573",12.1,0
+2013-2017,Male and female,Oral Cavity and Pharynx,Not Polk,Not Polk, 13.7 ,13.7,0.3,13.1,14.3,"2,290",1.1321,0.9991,1.2869,0.0517,"13,338,399",13.7,0
+2013-2017,Male,Oral Cavity and Pharynx,IA: Polk County (19153),Polk County, 19.3 ,19.3,1.4,16.8,22.2,219,,,,,"1,150,867",19.3,0
+2013-2017,Male,Oral Cavity and Pharynx,Not Polk,Not Polk, 20.2 ,20.2,0.5,19.2,21.2,"1,618",1.043,0.8998,1.2145,0.6047,"6,661,247",20.2,0
+2013-2017,Female,Oral Cavity and Pharynx,IA: Polk County (19153),Polk County, 5.8 ,5.8,0.7,4.6,7.3,76,,,,,"1,182,706",5.8,0
+2013-2017,Female,Oral Cavity and Pharynx,Not Polk,Not Polk, 7.6 ,7.6#,0.3,7,8.2,672,1.3096,1.0257,1.6928,0.0293,"6,677,152",7.6,1
+2018-2022,Male and female,Oral Cavity and Pharynx,IA: Polk County (19153),Polk County, 15.4 ,15.4,0.8,13.9,17,410,,,,,"2,466,534",15.4,0
+2018-2022,Male and female,Oral Cavity and Pharynx,Not Polk,Not Polk, 14.6 ,14.6,0.3,14,15.2,"2,550",0.9493,0.8525,1.0594,0.3553,"13,477,009",14.6,0
+2018-2022,Male,Oral Cavity and Pharynx,IA: Polk County (19153),Polk County, 24.3 ,24.3,1.5,21.6,27.3,304,,,,,"1,224,181",24.3,0
+2018-2022,Male,Oral Cavity and Pharynx,Not Polk,Not Polk, 21.8 ,21.8,0.5,20.8,22.9,"1,839",0.8983,0.7912,1.023,0.1058,"6,760,840",21.8,0
+2018-2022,Female,Oral Cavity and Pharynx,IA: Polk County (19153),Polk County, 7.8 ,7.8,0.8,6.3,9.4,106,,,,,"1,242,353",7.8,0
+2018-2022,Female,Oral Cavity and Pharynx,Not Polk,Not Polk, 7.8 ,7.8,0.3,7.2,8.5,711,1.0072,0.8159,1.254,1,"6,716,169",7.8,0
+2003-2007,Male and female,Digestive System,IA: Polk County (19153),Polk County, 38.1 ,38.1,1.4,35.3,41,708,,,,,"1,998,485",38.1,0
+2003-2007,Male and female,Digestive System,Not Polk,Not Polk, 34.4 ,34.4#,0.5,33.4,35.3,"5,277",0.9022,0.8334,0.978,0.0125,"12,843,459",34.4,1
+2003-2007,Male,Digestive System,IA: Polk County (19153),Polk County, 51.9 ,51.9,2.7,46.8,57.4,407,,,,,"975,346",51.9,0
+2003-2007,Male,Digestive System,Not Polk,Not Polk, 44.2 ,44.2#,0.8,42.6,45.9,"2,979",0.8519,0.7659,0.9501,0.0041,"6,341,637",44.2,1
+2003-2007,Female,Digestive System,IA: Polk County (19153),Polk County, 28.3 ,28.3,1.7,25.2,31.7,301,,,,,"1,023,139",28.3,0
+2003-2007,Female,Digestive System,Not Polk,Not Polk, 26.4 ,26.4,0.6,25.3,27.5,"2,298",0.9325,0.8252,1.0571,0.276,"6,501,822",26.4,0
+2008-2012,Male and female,Digestive System,IA: Polk County (19153),Polk County, 39.3 ,39.3,1.4,36.6,42.1,829,,,,,"2,161,866",39.3,0
+2008-2012,Male and female,Digestive System,Not Polk,Not Polk, 37.1 ,37.1,0.5,36.1,38,"6,043",0.9445,0.877,1.0183,0.137,"13,091,838",37.1,0
+2008-2012,Male,Digestive System,IA: Polk County (19153),Polk County, 53.5 ,53.5,2.5,48.7,58.6,500,,,,,"1,060,528",53.5,0
+2008-2012,Male,Digestive System,Not Polk,Not Polk, 47.7 ,47.7#,0.8,46.1,49.3,"3,515",0.8916,0.809,0.9847,0.0236,"6,496,224",47.7,1
+2008-2012,Female,Digestive System,IA: Polk County (19153),Polk County, 28.1 ,28.1,1.6,25.1,31.4,329,,,,,"1,101,338",28.1,0
+2008-2012,Female,Digestive System,Not Polk,Not Polk, 28.1 ,28.1,0.6,27,29.3,"2,528",0.9999,0.8889,1.1279,1,"6,595,614",28.1,0
+2013-2017,Male and female,Digestive System,IA: Polk County (19153),Polk County, 42.7 ,42.7,1.4,40.1,45.6,993,,,,,"2,333,573",42.7,0
+2013-2017,Male and female,Digestive System,Not Polk,Not Polk, 40.3 ,40.3,0.5,39.3,41.3,"6,896",0.9425,0.8801,1.0103,0.0947,"13,338,399",40.3,0
+2013-2017,Male,Digestive System,IA: Polk County (19153),Polk County, 54.4 ,54.4,2.4,49.8,59.2,573,,,,,"1,150,867",54.4,0
+2013-2017,Male,Digestive System,Not Polk,Not Polk, 51.3 ,51.3,0.8,49.7,52.9,"4,066",0.9437,0.8612,1.036,0.224,"6,661,247",51.3,0
+2013-2017,Female,Digestive System,IA: Polk County (19153),Polk County, 33.0 ,33,1.6,29.9,36.4,420,,,,,"1,182,706",33,0
+2013-2017,Female,Digestive System,Not Polk,Not Polk, 30.6 ,30.6,0.6,29.5,31.8,"2,830",0.928,0.8351,1.0334,0.1737,"6,677,152",30.6,0
+2018-2022,Male and female,Digestive System,IA: Polk County (19153),Polk County, 45.2 ,45.2,1.3,42.6,47.9,"1,183",,,,,"2,466,534",45.2,0
+2018-2022,Male and female,Digestive System,Not Polk,Not Polk, 41.2 ,41.2#,0.5,40.2,42.1,"7,459",0.9103,0.8546,0.9702,0.0039,"13,477,009",41.2,1
+2018-2022,Male,Digestive System,IA: Polk County (19153),Polk County, 58.0 ,58,2.3,53.6,62.7,693,,,,,"1,224,181",58,0
+2018-2022,Male,Digestive System,Not Polk,Not Polk, 51.7 ,51.7#,0.8,50.1,53.3,"4,417",0.8914,0.8199,0.9704,0.0081,"6,760,840",51.7,1
+2018-2022,Female,Digestive System,IA: Polk County (19153),Polk County, 35.0 ,35,1.6,31.9,38.4,490,,,,,"1,242,353",35,0
+2018-2022,Female,Digestive System,Not Polk,Not Polk, 31.8 ,31.8,0.6,30.7,33,"3,042",0.9082,0.8232,1.0037,0.059,"6,716,169",31.8,0
+2003-2007,Male and female,Colon and Rectum,IA: Polk County (19153),Polk County, 52.4 ,52.4,1.7,49.1,55.8,953,,,,,"1,998,485",52.4,0
+2003-2007,Male and female,Colon and Rectum,Not Polk,Not Polk, 55.1 ,55.1,0.6,53.9,56.3,"8,578",1.0518,0.9831,1.1265,0.1451,"12,843,459",55.1,0
+2003-2007,Male,Colon and Rectum,IA: Polk County (19153),Polk County, 61.7 ,61.7,2.9,56.1,67.7,470,,,,,"975,346",61.7,0
+2003-2007,Male,Colon and Rectum,Not Polk,Not Polk, 62.8 ,62.8,1,60.9,64.8,"4,207",1.0177,0.9229,1.1249,0.7431,"6,341,637",62.8,0
+2003-2007,Female,Colon and Rectum,IA: Polk County (19153),Polk County, 45.7 ,45.7,2.1,41.6,50,483,,,,,"1,023,139",45.7,0
+2003-2007,Female,Colon and Rectum,Not Polk,Not Polk, 48.5 ,48.5,0.8,47,50,"4,371",1.0617,0.9648,1.1707,0.2267,"6,501,822",48.5,0
+2008-2012,Male and female,Colon and Rectum,IA: Polk County (19153),Polk County, 44.5 ,44.5,1.5,41.6,47.5,901,,,,,"2,161,866",44.5,0
+2008-2012,Male and female,Colon and Rectum,Not Polk,Not Polk, 47.8 ,47.8#,0.6,46.7,48.9,"7,740",1.074,1.0012,1.1535,0.0462,"13,091,838",47.8,1
+2008-2012,Male,Colon and Rectum,IA: Polk County (19153),Polk County, 52.2 ,52.2,2.5,47.3,57.4,456,,,,,"1,060,528",52.2,0
+2008-2012,Male,Colon and Rectum,Not Polk,Not Polk, 54.7 ,54.7,0.9,53,56.5,"3,935",1.0491,0.9489,1.1625,0.3599,"6,496,224",54.7,0
+2008-2012,Female,Colon and Rectum,IA: Polk County (19153),Polk County, 38.9 ,38.9,1.9,35.3,42.7,445,,,,,"1,101,338",38.9,0
+2008-2012,Female,Colon and Rectum,Not Polk,Not Polk, 41.7 ,41.7,0.7,40.4,43.1,"3,805",1.0734,0.9706,1.1895,0.1725,"6,595,614",41.7,0
+2013-2017,Male and female,Colon and Rectum,IA: Polk County (19153),Polk County, 43.7 ,43.7,1.4,40.9,46.5,998,,,,,"2,333,573",43.7,0
+2013-2017,Male and female,Colon and Rectum,Not Polk,Not Polk, 44.6 ,44.6,0.5,43.5,45.6,"7,385",1.0202,0.9532,1.0929,0.5758,"13,338,399",44.6,0
+2013-2017,Male,Colon and Rectum,IA: Polk County (19153),Polk County, 49.2 ,49.2,2.3,44.9,53.8,516,,,,,"1,150,867",49.2,0
+2013-2017,Male,Colon and Rectum,Not Polk,Not Polk, 49.9 ,49.9,0.8,48.3,51.5,"3,802",1.0137,0.9211,1.1179,0.8007,"6,661,247",49.9,0
+2013-2017,Female,Colon and Rectum,IA: Polk County (19153),Polk County, 38.7 ,38.7,1.8,35.3,42.4,482,,,,,"1,182,706",38.7,0
+2013-2017,Female,Colon and Rectum,Not Polk,Not Polk, 39.8 ,39.8,0.7,38.4,41.2,"3,583",1.0271,0.9314,1.1348,0.6109,"6,677,152",39.8,0
+2018-2022,Male and female,Colon and Rectum,IA: Polk County (19153),Polk County, 37.1 ,37.1,1.2,34.7,39.6,938,,,,,"2,466,534",37.1,0
+2018-2022,Male and female,Colon and Rectum,Not Polk,Not Polk, 40.8 ,40.8#,0.5,39.8,41.8,"6,922",1.0978,1.0236,1.1784,0.0086,"13,477,009",40.8,1
+2018-2022,Male,Colon and Rectum,IA: Polk County (19153),Polk County, 42.2 ,42.2,2,38.4,46.3,491,,,,,"1,224,181",42.2,0
+2018-2022,Male,Colon and Rectum,Not Polk,Not Polk, 44.9 ,44.9,0.8,43.3,46.4,"3,579",1.0624,0.9634,1.174,0.2318,"6,760,840",44.9,0
+2018-2022,Female,Colon and Rectum,IA: Polk County (19153),Polk County, 33.0 ,33,1.6,29.9,36.3,447,,,,,"1,242,353",33,0
+2018-2022,Female,Colon and Rectum,Not Polk,Not Polk, 36.7 ,36.7#,0.7,35.4,38.1,"3,343",1.1138,1.0061,1.2354,0.0375,"6,716,169",36.7,1
+2003-2007,Male and female,Urinary System,IA: Polk County (19153),Polk County, 43.3 ,43.3,1.5,40.3,46.5,798,,,,,"1,998,485",43.3,0
+2003-2007,Male and female,Urinary System,Not Polk,Not Polk, 40.7 ,40.7,0.5,39.7,41.7,"6,240",0.939,0.8717,1.0128,0.103,"12,843,459",40.7,0
+2003-2007,Male,Urinary System,IA: Polk County (19153),Polk County, 71.2 ,71.2,3.1,65.2,77.6,549,,,,,"975,346",71.2,0
+2003-2007,Male,Urinary System,Not Polk,Not Polk, 65.8 ,65.8,1,63.9,67.8,"4,405",0.9248,0.8441,1.0151,0.1001,"6,341,637",65.8,0
+2003-2007,Female,Urinary System,IA: Polk County (19153),Polk County, 24.0 ,24,1.5,21.1,27.2,249,,,,,"1,023,139",24,0
+2003-2007,Female,Urinary System,Not Polk,Not Polk, 21.4 ,21.4,0.5,20.4,22.5,"1,835",0.8937,0.7812,1.0262,0.1111,"6,501,822",21.4,0
+2008-2012,Male and female,Urinary System,IA: Polk County (19153),Polk County, 41.9 ,41.9,1.5,39.1,44.9,857,,,,,"2,161,866",41.9,0
+2008-2012,Male and female,Urinary System,Not Polk,Not Polk, 41.6 ,41.6,0.5,40.6,42.6,"6,705",0.9918,0.9223,1.0677,0.8352,"13,091,838",41.6,0
+2008-2012,Male,Urinary System,IA: Polk County (19153),Polk County, 68.0 ,68,2.9,62.5,73.8,606,,,,,"1,060,528",68,0
+2008-2012,Male,Urinary System,Not Polk,Not Polk, 66.7 ,66.7,1,64.8,68.7,"4,810",0.982,0.8998,1.0737,0.6971,"6,496,224",66.7,0
+2008-2012,Female,Urinary System,IA: Polk County (19153),Polk County, 22.1 ,22.1,1.4,19.4,25.1,251,,,,,"1,101,338",22.1,0
+2008-2012,Female,Urinary System,Not Polk,Not Polk, 21.6 ,21.6,0.5,20.6,22.7,"1,895",0.9774,0.8542,1.1227,0.7604,"6,595,614",21.6,0
+2013-2017,Male and female,Urinary System,IA: Polk County (19153),Polk County, 40.7 ,40.7,1.4,38.1,43.5,923,,,,,"2,333,573",40.7,0
+2013-2017,Male and female,Urinary System,Not Polk,Not Polk, 43.0 ,43,0.5,42,44.1,"7,239",1.057,0.9852,1.1354,0.1243,"13,338,399",43,0
+2013-2017,Male,Urinary System,IA: Polk County (19153),Polk County, 64.3 ,64.3,2.7,59.2,69.7,639,,,,,"1,150,867",64.3,0
+2013-2017,Male,Urinary System,Not Polk,Not Polk, 67.5 ,67.5,1,65.6,69.4,"5,187",1.0499,0.9638,1.1456,0.2713,"6,661,247",67.5,0
+2013-2017,Female,Urinary System,IA: Polk County (19153),Polk County, 23.4 ,23.4,1.4,20.7,26.3,284,,,,,"1,182,706",23.4,0
+2013-2017,Female,Urinary System,Not Polk,Not Polk, 22.8 ,22.8,0.5,21.8,23.9,"2,052",0.9756,0.8587,1.1121,0.7233,"6,677,152",22.8,0
+2018-2022,Male and female,Urinary System,IA: Polk County (19153),Polk County, 44.6 ,44.6,1.3,42,47.3,"1,156",,,,,"2,466,534",44.6,0
+2018-2022,Male and female,Urinary System,Not Polk,Not Polk, 44.1 ,44.1,0.5,43.1,45.1,"7,837",0.9878,0.927,1.0533,0.7132,"13,477,009",44.1,0
+2018-2022,Male,Urinary System,IA: Polk County (19153),Polk County, 70.3 ,70.3,2.6,65.4,75.5,816,,,,,"1,224,181",70.3,0
+2018-2022,Male,Urinary System,Not Polk,Not Polk, 67.8 ,67.8,0.9,66,69.6,"5,618",0.964,0.893,1.042,0.3579,"6,760,840",67.8,0
+2018-2022,Female,Urinary System,IA: Polk County (19153),Polk County, 24.4 ,24.4,1.4,21.8,27.2,340,,,,,"1,242,353",24.4,0
+2018-2022,Female,Urinary System,Not Polk,Not Polk, 24.1 ,24.1,0.5,23.1,25.2,"2,219",0.9876,0.8779,1.1137,0.8531,"6,716,169",24.1,0
+2003-2007,Male and female,Brain and other nervous system,IA: Polk County (19153),Polk County, 7.2 ,7.2,0.6,6,8.5,140,,,,,"1,998,485",7.2,0
+2003-2007,Male and female,Brain and other nervous system,Not Polk,Not Polk, 7.6 ,7.6,0.2,7.1,8.1,"1,065",1.057,0.8842,1.272,0.5751,"12,843,459",7.6,0
+2003-2007,Male,Brain and other nervous system,IA: Polk County (19153),Polk County, 9.0 ,9,1,7.1,11.2,83,,,,,"975,346",9,0
+2003-2007,Male,Brain and other nervous system,Not Polk,Not Polk, 8.9 ,8.9,0.4,8.2,9.7,588,0.9925,0.7837,1.2708,0.9858,"6,341,637",8.9,0
+2003-2007,Female,Brain and other nervous system,IA: Polk County (19153),Polk County, 5.7 ,5.7,0.8,4.3,7.4,57,,,,,"1,023,139",5.7,0
+2003-2007,Female,Brain and other nervous system,Not Polk,Not Polk, 6.4 ,6.4,0.3,5.8,7,477,1.1312,0.8567,1.5206,0.4203,"6,501,822",6.4,0
+2008-2012,Male and female,Brain and other nervous system,IA: Polk County (19153),Polk County, 8.2 ,8.2,0.6,7,9.5,175,,,,,"2,161,866",8.2,0
+2008-2012,Male and female,Brain and other nervous system,Not Polk,Not Polk, 7.4 ,7.4,0.2,7,7.9,"1,083",0.9063,0.7701,1.0721,0.2526,"13,091,838",7.4,0
+2008-2012,Male,Brain and other nervous system,IA: Polk County (19153),Polk County, 9.2 ,9.2,1,7.3,11.3,92,,,,,"1,060,528",9.2,0
+2008-2012,Male,Brain and other nervous system,Not Polk,Not Polk, 8.6 ,8.6,0.4,7.9,9.3,597,0.9398,0.7492,1.1908,0.6219,"6,496,224",8.6,0
+2008-2012,Female,Brain and other nervous system,IA: Polk County (19153),Polk County, 7.2 ,7.2,0.8,5.7,9,83,,,,,"1,101,338",7.2,0
+2008-2012,Female,Brain and other nervous system,Not Polk,Not Polk, 6.4 ,6.4,0.3,5.8,7,486,0.8883,0.6992,1.1407,0.3582,"6,595,614",6.4,0
+2013-2017,Male and female,Brain and other nervous system,IA: Polk County (19153),Polk County, 7.2 ,7.2,0.6,6.1,8.4,166,,,,,"2,333,573",7.2,0
+2013-2017,Male and female,Brain and other nervous system,Not Polk,Not Polk, 7.2 ,7.2,0.2,6.7,7.6,"1,101",0.9979,0.8442,1.1864,1,"13,338,399",7.2,0
+2013-2017,Male,Brain and other nervous system,IA: Polk County (19153),Polk County, 8.4 ,8.4,0.9,6.7,10.3,92,,,,,"1,150,867",8.4,0
+2013-2017,Male,Brain and other nervous system,Not Polk,Not Polk, 8.0 ,8,0.3,7.4,8.7,611,0.9619,0.7663,1.2201,0.7709,"6,661,247",8,0
+2013-2017,Female,Brain and other nervous system,IA: Polk County (19153),Polk County, 6.0 ,6,0.7,4.7,7.6,74,,,,,"1,182,706",6,0
+2013-2017,Female,Brain and other nervous system,Not Polk,Not Polk, 6.4 ,6.4,0.3,5.8,7,490,1.0589,0.8236,1.379,0.7069,"6,677,152",6.4,0
+2018-2022,Male and female,Brain and other nervous system,IA: Polk County (19153),Polk County, 6.3 ,6.3,0.5,5.4,7.4,163,,,,,"2,466,534",6.3,0
+2018-2022,Male and female,Brain and other nervous system,Not Polk,Not Polk, 6.7 ,6.7,0.2,6.3,7.1,"1,046",1.0581,0.8927,1.261,0.5447,"13,477,009",6.7,0
+2018-2022,Male,Brain and other nervous system,IA: Polk County (19153),Polk County, 6.6 ,6.6,0.7,5.2,8.2,83,,,,,"1,224,181",6.6,0
+2018-2022,Male,Brain and other nervous system,Not Polk,Not Polk, 7.9 ,7.9,0.3,7.3,8.6,602,1.2064,0.9505,1.5479,0.1297,"6,760,840",7.9,0
+2018-2022,Female,Brain and other nervous system,IA: Polk County (19153),Polk County, 6.1 ,6.1,0.7,4.8,7.6,80,,,,,"1,242,353",6.1,0
+2018-2022,Female,Brain and other nervous system,Not Polk,Not Polk, 5.5 ,5.5,0.3,5,6.1,444,0.9028,0.7058,1.1678,0.4452,"6,716,169",5.5,0
+2003-2007,Male and female,Endocrine System,IA: Polk County (19153),Polk County, 11.1 ,11.1,0.8,9.7,12.7,221,,,,,"1,998,485",11.1,0
+2003-2007,Male and female,Endocrine System,Not Polk,Not Polk, 10.8 ,10.8,0.3,10.3,11.4,"1,411",0.9738,0.8436,1.1285,0.7368,"12,843,459",10.8,0
+2003-2007,Male,Endocrine System,IA: Polk County (19153),Polk County, 6.2 ,6.2,0.8,4.7,8.1,58,,,,,"975,346",6.2,0
+2003-2007,Male,Endocrine System,Not Polk,Not Polk, 6.4 ,6.4,0.3,5.8,7.1,420,1.0354,0.7814,1.3931,0.8809,"6,341,637",6.4,0
+2003-2007,Female,Endocrine System,IA: Polk County (19153),Polk County, 15.8 ,15.8,1.2,13.4,18.4,163,,,,,"1,023,139",15.8,0
+2003-2007,Female,Endocrine System,Not Polk,Not Polk, 15.3 ,15.3,0.5,14.3,16.3,991,0.9687,0.819,1.1519,0.7336,"6,501,822",15.3,0
+2008-2012,Male and female,Endocrine System,IA: Polk County (19153),Polk County, 12.5 ,12.5,0.8,11,14.1,267,,,,,"2,161,866",12.5,0
+2008-2012,Male and female,Endocrine System,Not Polk,Not Polk, 14.6 ,14.6#,0.3,13.9,15.3,"1,976",1.1698,1.0268,1.3371,0.0176,"13,091,838",14.6,1
+2008-2012,Male,Endocrine System,IA: Polk County (19153),Polk County, 8.7 ,8.7,1,6.9,10.8,87,,,,,"1,060,528",8.7,0
+2008-2012,Male,Endocrine System,Not Polk,Not Polk, 8.0 ,8,0.3,7.3,8.7,551,0.9175,0.7253,1.1735,0.5026,"6,496,224",8,0
+2008-2012,Female,Endocrine System,IA: Polk County (19153),Polk County, 16.3 ,16.3,1.2,14,18.9,180,,,,,"1,101,338",16.3,0
+2008-2012,Female,Endocrine System,Not Polk,Not Polk, 21.3 ,21.3#,0.6,20.2,22.5,"1,425",1.3077,1.1167,1.5394,0.0006,"6,595,614",21.3,1
+2013-2017,Male and female,Endocrine System,IA: Polk County (19153),Polk County, 13.0 ,13,0.8,11.5,14.5,305,,,,,"2,333,573",13,0
+2013-2017,Male and female,Endocrine System,Not Polk,Not Polk, 15.7 ,15.7#,0.4,15,16.4,"2,155",1.2142,1.0737,1.3771,0.0017,"13,338,399",15.7,1
+2013-2017,Male,Endocrine System,IA: Polk County (19153),Polk County, 7.8 ,7.8,0.9,6.2,9.7,87,,,,,"1,150,867",7.8,0
+2013-2017,Male,Endocrine System,Not Polk,Not Polk, 8.7 ,8.7,0.4,8,9.4,622,1.1179,0.8847,1.4287,0.3787,"6,661,247",8.7,0
+2013-2017,Female,Endocrine System,IA: Polk County (19153),Polk County, 18.2 ,18.2,1.3,15.9,20.9,218,,,,,"1,182,706",18.2,0
+2013-2017,Female,Endocrine System,Not Polk,Not Polk, 23.0 ,23.0#,0.6,21.8,24.2,"1,533",1.2601,1.0898,1.4632,0.0015,"6,677,152",23,1
+2018-2022,Male and female,Endocrine System,IA: Polk County (19153),Polk County, 14.9 ,14.9,0.8,13.4,16.5,368,,,,,"2,466,534",14.9,0
+2018-2022,Male and female,Endocrine System,Not Polk,Not Polk, 14.9 ,14.9,0.3,14.2,15.6,"2,126",1.0014,0.8941,1.1241,1,"13,477,009",14.9,0
+2018-2022,Male,Endocrine System,IA: Polk County (19153),Polk County, 8.5 ,8.5,0.8,6.9,10.3,104,,,,,"1,224,181",8.5,0
+2018-2022,Male,Endocrine System,Not Polk,Not Polk, 8.9 ,8.9,0.4,8.2,9.6,674,1.0507,0.8485,1.3122,0.6965,"6,760,840",8.9,0
+2018-2022,Female,Endocrine System,IA: Polk County (19153),Polk County, 21.3 ,21.3,1.3,18.8,24.1,264,,,,,"1,242,353",21.3,0
+2018-2022,Female,Endocrine System,Not Polk,Not Polk, 21.1 ,21.1,0.6,20,22.3,"1,452",0.9916,0.8669,1.138,0.9218,"6,716,169",21.1,0
+2003-2007,Male and female,Lymphoma,IA: Polk County (19153),Polk County, 24.9 ,24.9,1.2,22.6,27.2,472,,,,,"1,998,485",24.9,0
+2003-2007,Male and female,Lymphoma,Not Polk,Not Polk, 24.5 ,24.5,0.4,23.7,25.3,"3,623",0.9845,0.8935,1.087,0.7673,"12,843,459",24.5,0
+2003-2007,Male,Lymphoma,IA: Polk County (19153),Polk County, 29.6 ,29.6,1.9,25.9,33.5,252,,,,,"975,346",29.6,0
+2003-2007,Male,Lymphoma,Not Polk,Not Polk, 28.7 ,28.7,0.7,27.4,30,"1,908",0.9714,0.849,1.1158,0.6921,"6,341,637",28.7,0
+2003-2007,Female,Lymphoma,IA: Polk County (19153),Polk County, 21.0 ,21,1.4,18.3,24,220,,,,,"1,023,139",21,0
+2003-2007,Female,Lymphoma,Not Polk,Not Polk, 21.1 ,21.1,0.5,20,22.1,"1,715",1.0013,0.8682,1.1597,1,"6,501,822",21.1,0
+2008-2012,Male and female,Lymphoma,IA: Polk County (19153),Polk County, 24.3 ,24.3,1.1,22.2,26.6,501,,,,,"2,161,866",24.3,0
+2008-2012,Male and female,Lymphoma,Not Polk,Not Polk, 25.8 ,25.8,0.4,24.9,26.6,"3,983",1.0587,0.9629,1.1662,0.2454,"13,091,838",25.8,0
+2008-2012,Male,Lymphoma,IA: Polk County (19153),Polk County, 29.9 ,29.9,1.9,26.4,33.8,275,,,,,"1,060,528",29.9,0
+2008-2012,Male,Lymphoma,Not Polk,Not Polk, 31.0 ,31,0.7,29.7,32.4,"2,173",1.0377,0.9115,1.186,0.5984,"6,496,224",31,0
+2008-2012,Female,Lymphoma,IA: Polk County (19153),Polk County, 20.2 ,20.2,1.4,17.6,23.1,226,,,,,"1,101,338",20.2,0
+2008-2012,Female,Lymphoma,Not Polk,Not Polk, 21.4 ,21.4,0.5,20.4,22.5,"1,810",1.0571,0.9176,1.2229,0.4629,"6,595,614",21.4,0
+2013-2017,Male and female,Lymphoma,IA: Polk County (19153),Polk County, 23.1 ,23.1,1,21.2,25.2,530,,,,,"2,333,573",23.1,0
+2013-2017,Male and female,Lymphoma,Not Polk,Not Polk, 24.8 ,24.8,0.4,24,25.6,"3,963",1.0701,0.9749,1.1767,0.1574,"13,338,399",24.8,0
+2013-2017,Male,Lymphoma,IA: Polk County (19153),Polk County, 29.1 ,29.1,1.7,25.8,32.7,304,,,,,"1,150,867",29.1,0
+2013-2017,Male,Lymphoma,Not Polk,Not Polk, 29.7 ,29.7,0.6,28.4,31,"2,215",1.0194,0.8997,1.159,0.7894,"6,661,247",29.7,0
+2013-2017,Female,Lymphoma,IA: Polk County (19153),Polk County, 18.5 ,18.5,1.3,16.1,21.1,226,,,,,"1,182,706",18.5,0
+2013-2017,Female,Lymphoma,Not Polk,Not Polk, 20.6 ,20.6,0.5,19.6,21.6,"1,748",1.1171,0.9689,1.2936,0.1314,"6,677,152",20.6,0
+2018-2022,Male and female,Lymphoma,IA: Polk County (19153),Polk County, 25.3 ,25.3,1,23.4,27.4,642,,,,,"2,466,534",25.3,0
+2018-2022,Male and female,Lymphoma,Not Polk,Not Polk, 24.1 ,24.1,0.4,23.3,24.9,"4,112",0.9508,0.8729,1.037,0.2551,"13,477,009",24.1,0
+2018-2022,Male,Lymphoma,IA: Polk County (19153),Polk County, 28.2 ,28.2,1.6,25.1,31.5,332,,,,,"1,224,181",28.2,0
+2018-2022,Male,Lymphoma,Not Polk,Not Polk, 29.0 ,29,0.6,27.8,30.2,"2,311",1.028,0.9122,1.1619,0.6751,"6,760,840",29,0
+2018-2022,Female,Lymphoma,IA: Polk County (19153),Polk County, 22.8 ,22.8,1.3,20.3,25.6,310,,,,,"1,242,353",22.8,0
+2018-2022,Female,Lymphoma,Not Polk,Not Polk, 19.9 ,19.9#,0.5,19,20.9,"1,801",0.8723,0.7705,0.9903,0.0348,"6,716,169",19.9,1
+2003-2007,Male and female,Leukemia,IA: Polk County (19153),Polk County, 13.7 ,13.7,0.9,12,15.5,255,,,,,"1,998,485",13.7,0
+2003-2007,Male and female,Leukemia,Not Polk,Not Polk, 16.3 ,16.3#,0.3,15.7,17,"2,469",1.1914,1.0459,1.3625,0.0077,"12,843,459",16.3,1
+2003-2007,Male,Leukemia,IA: Polk County (19153),Polk County, 17.5 ,17.5,1.5,14.6,20.7,139,,,,,"975,346",17.5,0
+2003-2007,Male,Leukemia,Not Polk,Not Polk, 21.3 ,21.3#,0.6,20.2,22.4,"1,404",1.2163,1.0172,1.4662,0.0311,"6,341,637",21.3,1
+2003-2007,Female,Leukemia,IA: Polk County (19153),Polk County, 11.0 ,11,1,9.1,13.2,116,,,,,"1,023,139",11,0
+2003-2007,Female,Leukemia,Not Polk,Not Polk, 12.6 ,12.6,0.4,11.8,13.4,"1,065",1.1447,0.9419,1.403,0.1841,"6,501,822",12.6,0
+2008-2012,Male and female,Leukemia,IA: Polk County (19153),Polk County, 17.2 ,17.2,0.9,15.5,19.1,358,,,,,"2,161,866",17.2,0
+2008-2012,Male and female,Leukemia,Not Polk,Not Polk, 16.4 ,16.4,0.3,15.8,17.1,"2,593",0.9519,0.8503,1.0685,0.4061,"13,091,838",16.4,0
+2008-2012,Male,Leukemia,IA: Polk County (19153),Polk County, 21.5 ,21.5,1.6,18.5,24.8,195,,,,,"1,060,528",21.5,0
+2008-2012,Male,Leukemia,Not Polk,Not Polk, 20.9 ,20.9,0.6,19.8,22,"1,483",0.9738,0.8343,1.143,0.7598,"6,496,224",20.9,0
+2008-2012,Female,Leukemia,IA: Polk County (19153),Polk County, 14.1 ,14.1,1.1,12,16.5,163,,,,,"1,101,338",14.1,0
+2008-2012,Female,Leukemia,Not Polk,Not Polk, 12.8 ,12.8,0.4,12,13.6,"1,110",0.9079,0.7669,1.0811,0.2803,"6,595,614",12.8,0
+2013-2017,Male and female,Leukemia,IA: Polk County (19153),Polk County, 18.9 ,18.9,0.9,17.1,20.8,433,,,,,"2,333,573",18.9,0
+2013-2017,Male and female,Leukemia,Not Polk,Not Polk, 17.5 ,17.5,0.3,16.9,18.2,"2,878",0.9279,0.8365,1.0317,0.1668,"13,338,399",17.5,0
+2013-2017,Male,Leukemia,IA: Polk County (19153),Polk County, 25.6 ,25.6,1.6,22.5,29,264,,,,,"1,150,867",25.6,0
+2013-2017,Male,Leukemia,Not Polk,Not Polk, 22.8 ,22.8,0.6,21.7,24,"1,724",0.8917,0.7793,1.0244,0.1053,"6,661,247",22.8,0
+2013-2017,Female,Leukemia,IA: Polk County (19153),Polk County, 13.4 ,13.4,1.1,11.4,15.6,169,,,,,"1,182,706",13.4,0
+2013-2017,Female,Leukemia,Not Polk,Not Polk, 13.2 ,13.2,0.4,12.4,14,"1,154",0.9874,0.8358,1.1732,0.9081,"6,677,152",13.2,0
+2018-2022,Male and female,Leukemia,IA: Polk County (19153),Polk County, 18.2 ,18.2,0.9,16.5,19.9,469,,,,,"2,466,534",18.2,0
+2018-2022,Male and female,Leukemia,Not Polk,Not Polk, 17.1 ,17.1,0.3,16.4,17.7,"2,944",0.9387,0.8492,1.0395,0.2251,"13,477,009",17.1,0
+2018-2022,Male,Leukemia,IA: Polk County (19153),Polk County, 22.6 ,22.6,1.4,19.9,25.6,271,,,,,"1,224,181",22.6,0
+2018-2022,Male,Leukemia,Not Polk,Not Polk, 22.2 ,22.2,0.5,21.2,23.3,"1,783",0.9823,0.86,1.1261,0.8132,"6,760,840",22.2,0
+2018-2022,Female,Leukemia,IA: Polk County (19153),Polk County, 14.7 ,14.7,1.1,12.7,17,198,,,,,"1,242,353",14.7,0
+2018-2022,Female,Leukemia,Not Polk,Not Polk, 12.6 ,12.6,0.4,11.9,13.4,"1,161",0.8571,0.7337,1.0057,0.0587,"6,716,169",12.6,0
+2003-2007,Male and female,Myeloma,IA: Polk County (19153),Polk County, 5.4 ,5.4,0.5,4.4,6.6,99,,,,,"1,998,485",5.4,0
+2003-2007,Male and female,Myeloma,Not Polk,Not Polk, 5.8 ,5.8,0.2,5.4,6.2,885,1.0656,0.8639,1.3283,0.5895,"12,843,459",5.8,0
+2003-2007,Male,Myeloma,IA: Polk County (19153),Polk County, 6.1 ,6.1,0.9,4.4,8.2,46,,,,,"975,346",6.1,0
+2003-2007,Male,Myeloma,Not Polk,Not Polk, 7.5 ,7.5,0.3,6.9,8.2,504,1.2216,0.8974,1.7088,0.2206,"6,341,637",7.5,0
+2003-2007,Female,Myeloma,IA: Polk County (19153),Polk County, 5.0 ,5,0.7,3.7,6.6,53,,,,,"1,023,139",5,0
+2003-2007,Female,Myeloma,Not Polk,Not Polk, 4.4 ,4.4,0.2,4,4.9,381,0.8837,0.6591,1.2076,0.4476,"6,501,822",4.4,0
+2008-2012,Male and female,Myeloma,IA: Polk County (19153),Polk County, 6.6 ,6.6,0.6,5.6,7.9,137,,,,,"2,161,866",6.6,0
+2008-2012,Male and female,Myeloma,Not Polk,Not Polk, 6.5 ,6.5,0.2,6.1,6.9,"1,036",0.9746,0.8128,1.1773,0.8094,"13,091,838",6.5,0
+2008-2012,Male,Myeloma,IA: Polk County (19153),Polk County, 8.7 ,8.7,1,6.8,11,78,,,,,"1,060,528",8.7,0
+2008-2012,Male,Myeloma,Not Polk,Not Polk, 7.8 ,7.8,0.3,7.2,8.5,559,0.8947,0.7009,1.1584,0.4045,"6,496,224",7.8,0
+2008-2012,Female,Myeloma,IA: Polk County (19153),Polk County, 5.1 ,5.1,0.7,3.9,6.6,59,,,,,"1,101,338",5.1,0
+2008-2012,Female,Myeloma,Not Polk,Not Polk, 5.5 ,5.5,0.3,5,6,477,1.0725,0.8126,1.44,0.678,"6,595,614",5.5,0
+2013-2017,Male and female,Myeloma,IA: Polk County (19153),Polk County, 8.1 ,8.1,0.6,7,9.4,186,,,,,"2,333,573",8.1,0
+2013-2017,Male and female,Myeloma,Not Polk,Not Polk, 7.2 ,7.2,0.2,6.8,7.7,"1,230",0.8887,0.7582,1.0475,0.1598,"13,338,399",7.2,0
+2013-2017,Male,Myeloma,IA: Polk County (19153),Polk County, 10.9 ,10.9,1.1,8.9,13.3,111,,,,,"1,150,867",10.9,0
+2013-2017,Male,Myeloma,Not Polk,Not Polk, 9.0 ,9,0.3,8.4,9.8,700,0.8267,0.6706,1.0294,0.0888,"6,661,247",9,0
+2013-2017,Female,Myeloma,IA: Polk County (19153),Polk County, 6.0 ,6,0.7,4.7,7.6,75,,,,,"1,182,706",6,0
+2013-2017,Female,Myeloma,Not Polk,Not Polk, 5.7 ,5.7,0.3,5.2,6.3,530,0.9495,0.7401,1.2345,0.7215,"6,677,152",5.7,0
+2018-2022,Male and female,Myeloma,IA: Polk County (19153),Polk County, 7.7 ,7.7,0.6,6.6,8.8,197,,,,,"2,466,534",7.7,0
+2018-2022,Male and female,Myeloma,Not Polk,Not Polk, 7.5 ,7.5,0.2,7.1,7.9,"1,366",0.9806,0.8408,1.1491,0.8267,"13,477,009",7.5,0
+2018-2022,Male,Myeloma,IA: Polk County (19153),Polk County, 9.6 ,9.6,1,7.8,11.6,110,,,,,"1,224,181",9.6,0
+2018-2022,Male,Myeloma,Not Polk,Not Polk, 9.4 ,9.4,0.3,8.7,10.1,790,0.9761,0.7922,1.2149,0.8536,"6,760,840",9.4,0
+2018-2022,Female,Myeloma,IA: Polk County (19153),Polk County, 6.3 ,6.3,0.7,5,7.8,87,,,,,"1,242,353",6.3,0
+2018-2022,Female,Myeloma,Not Polk,Not Polk, 5.9 ,5.9,0.3,5.4,6.4,576,0.9396,0.7447,1.1982,0.6334,"6,716,169",5.9,0
+2003-2007,Female,Breast,IA: Polk County (19153),Polk County, 129.3 ,129.3,3.6,122.5,136.5,"1,347",,,,,"1,023,139",129.3,0
+2003-2007,Female,Breast,Not Polk,Not Polk, 121.8 ,121.8#,1.3,119.3,124.4,"9,514",0.9421,0.8892,0.9987,0.0453,"6,501,822",121.8,1
+2008-2012,Female,Breast,IA: Polk County (19153),Polk County, 133.2 ,133.2,3.5,126.5,140.2,"1,521",,,,,"1,101,338",133.2,0
+2008-2012,Female,Breast,Not Polk,Not Polk, 121.9 ,121.9#,1.3,119.4,124.4,"9,885",0.9151,0.866,0.9675,0.0018,"6,595,614",121.9,1
+2013-2017,Female,Breast,IA: Polk County (19153),Polk County, 128.3 ,128.3,3.3,122,134.9,"1,603",,,,,"1,182,706",128.3,0
+2013-2017,Female,Breast,Not Polk,Not Polk, 130.6 ,130.6,1.3,128,133.2,"10,789",1.0177,0.9642,1.0746,0.534,"6,677,152",130.6,0
+2018-2022,Female,Breast,IA: Polk County (19153),Polk County, 143.9 ,143.9,3.3,137.5,150.6,"1,971",,,,,"1,242,353",143.9,0
+2018-2022,Female,Breast,Not Polk,Not Polk, 136.3 ,136.3#,1.3,133.6,138.9,"11,610",0.9466,0.9011,0.9948,0.0304,"6,716,169",136.3,1
+2003-2007,Male,Prostate,IA: Polk County (19153),Polk County, 128.7 ,128.7,4.1,120.8,136.9,"1,042",,,,,"975,346",128.7,0
+2003-2007,Male,Prostate,Not Polk,Not Polk, 146.0 ,146.0#,1.5,143.2,149,"9,976",1.1351,1.0633,1.2129,0.0001,"6,341,637",146,1
+2008-2012,Male,Prostate,IA: Polk County (19153),Polk County, 127.7 ,127.7,3.8,120.3,135.5,"1,199",,,,,"1,060,528",127.7,0
+2008-2012,Male,Prostate,Not Polk,Not Polk, 127.9 ,127.9,1.3,125.4,130.5,"9,711",1.0015,0.9411,1.0668,0.9758,"6,496,224",127.9,0
+2013-2017,Male,Prostate,IA: Polk County (19153),Polk County, 99.7 ,99.7,3.1,93.7,106,"1,125",,,,,"1,150,867",99.7,0
+2013-2017,Male,Prostate,Not Polk,Not Polk, 112.2 ,112.2#,1.2,109.9,114.6,"9,483",1.1254,1.055,1.2015,0.0003,"6,661,247",112.2,1
+2018-2022,Male,Prostate,IA: Polk County (19153),Polk County, 112.4 ,112.4,3.1,106.5,118.5,"1,456",,,,,"1,224,181",112.4,0
+2018-2022,Male,Prostate,Not Polk,Not Polk, 131.9 ,131.9#,1.2,129.5,134.4,"12,096",1.1742,1.1096,1.2433,0,"6,760,840",131.9,1
+2003-2007,Female,Cervix and Uteri,IA: Polk County (19153),Polk County, 7.1 ,7.1,0.8,5.6,9,73,,,,,"1,023,139",7.1,0
+2003-2007,Female,Cervix and Uteri,Not Polk,Not Polk, 6.8 ,6.8,0.3,6.2,7.5,451,0.9575,0.7448,1.2467,0.7703,"6,501,822",6.8,0
+2008-2012,Female,Cervix and Uteri,IA: Polk County (19153),Polk County, 6.7 ,6.7,0.8,5.2,8.4,73,,,,,"1,101,338",6.7,0
+2008-2012,Female,Cervix and Uteri,Not Polk,Not Polk, 7.1 ,7.1,0.3,6.4,7.8,459,1.0639,0.8268,1.3866,0.6783,"6,595,614",7.1,0
+2013-2017,Female,Cervix and Uteri,IA: Polk County (19153),Polk County, 7.7 ,7.7,0.8,6.2,9.5,93,,,,,"1,182,706",7.7,0
+2013-2017,Female,Cervix and Uteri,Not Polk,Not Polk, 7.5 ,7.5,0.4,6.9,8.3,489,0.9794,0.7791,1.243,0.8912,"6,677,152",7.5,0
+2018-2022,Female,Cervix and Uteri,IA: Polk County (19153),Polk County, 7.9 ,7.9,0.8,6.4,9.7,98,,,,,"1,242,353",7.9,0
+2018-2022,Female,Cervix and Uteri,Not Polk,Not Polk, 7.0 ,7,0.3,6.4,7.7,455,0.8876,0.7086,1.1217,0.322,"6,716,169",7,0
+2003-2007,Female,Female Genital System,IA: Polk County (19153),Polk County, 47.8 ,47.8,2.2,43.7,52.3,499,,,,,"1,023,139",47.8,0
+2003-2007,Female,Female Genital System,Not Polk,Not Polk, 45.9 ,45.9,0.8,44.4,47.5,"3,670",0.9602,0.8734,1.0575,0.4125,"6,501,822",45.9,0
+2008-2012,Female,Female Genital System,IA: Polk County (19153),Polk County, 53.9 ,53.9,2.2,49.7,58.3,627,,,,,"1,101,338",53.9,0
+2008-2012,Female,Female Genital System,Not Polk,Not Polk, 48.5 ,48.5#,0.8,46.9,50,"4,055",0.9001,0.826,0.9823,0.0183,"6,595,614",48.5,1
+2013-2017,Female,Female Genital System,IA: Polk County (19153),Polk County, 46.0 ,46,1.9,42.3,49.9,598,,,,,"1,182,706",46,0
+2013-2017,Female,Female Genital System,Not Polk,Not Polk, 48.4 ,48.4,0.8,46.9,49.9,"4,263",1.0516,0.9629,1.1502,0.2705,"6,677,152",48.4,0
+2018-2022,Female,Female Genital System,IA: Polk County (19153),Polk County, 50.3 ,50.3,1.9,46.6,54.3,718,,,,,"1,242,353",50.3,0
+2018-2022,Female,Female Genital System,Not Polk,Not Polk, 47.9 ,47.9,0.8,46.5,49.5,"4,303",0.9525,0.878,1.0345,0.2488,"6,716,169",47.9,0
+
