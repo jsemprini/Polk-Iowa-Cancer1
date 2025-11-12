@@ -2,26 +2,49 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Cancer Trends</title>
+  <title>Cancer Trends in Polk County</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Plotly + d3 for CSV loading -->
+  <!-- Plotly + d3 -->
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 24px; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      margin: 24px;
+    }
     .row { display:flex; gap:16px; flex-wrap:wrap; align-items:flex-end; }
     .control { display:flex; flex-direction:column; min-width:220px; }
-    label { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:#555; margin-bottom:6px; }
-    select { padding:8px; border-radius:8px; border:1px solid #ccc; }
+    label {
+      font-size:12px;
+      text-transform:uppercase;
+      letter-spacing:.06em;
+      color:#555;
+      margin-bottom:6px;
+    }
+    select {
+      padding:8px;
+      border-radius:8px;
+      border:1px solid #ccc;
+    }
     #chart { width:100%; max-width:1100px; height:520px; }
-    #notes { max-width:1100px; background:#fafafa; border:1px solid #eee; border-radius:12px; padding:12px 16px; margin-top:12px; }
-    .caption { color:#666; font-size:12px; margin-top:6px; }
+    #fn-container {
+      max-width:1100px;
+      margin-top:10px;
+    }
+    #fn-conditional {
+      font-size:8px;
+      font-style:italic;
+      color:#333;
+    }
+    #fn-general {
+      font-size:8px;
+      color:#333;
+      margin-top:4px;
+    }
   </style>
 </head>
 <body>
-  <h1 style="margin:0 0 8px;">Cancer Trends</h1>
-  <div class="caption">X = Year (string) · Y = Cancer · Group = Polk</div>
-
+  <h1 style="margin:0 0 8px;">Cancer Trends in Polk County</h1>
   <div class="row" style="margin-top:16px;">
     <div class="control">
       <label for="sexSel">Sex</label>
@@ -34,22 +57,28 @@
   </div>
 
   <div id="chart"></div>
-  <div id="notes">Notes: choose Sex and Site to update the chart. (We’ll add conditionals later.)</div>
+
+  <!-- Footnotes -->
+  <div id="fn-container">
+    <div id="fn-conditional"></div>
+    <div id="fn-general">
+      All rates are reported as cancers per 100,000 population. Source: SEER
+    </div>
+  </div>
 
   <script>
     // Helper: numeric sort for years stored as strings
     function sortYearStrings(arr) {
-      // keep strings, but sort by numeric value when possible
       return arr.slice().sort((a, b) => {
         const na = +a, nb = +b;
         const aNum = !isNaN(na), bNum = !isNaN(nb);
         if (aNum && bNum) return na - nb;
-        return (''+a).localeCompare(''+b);
+        return ('' + a).localeCompare('' + b);
       });
     }
 
     // Load CSV (must be in same folder, named cancer_data.csv)
-    d3.csv("cancer_data.csv").then(function(dataRaw){
+    d3.csv("cancer_data.csv").then(function(dataRaw) {
       // Normalize column names (trim whitespace)
       const data = dataRaw.map(row => {
         const out = {};
@@ -58,7 +87,7 @@
       });
 
       // Verify required columns
-      const need = new Set(["Year","Sex","Site","Polk","Cancer"]);
+      const need = new Set(["Year", "Sex", "Site", "Polk", "Cancer"]);
       const has = new Set(Object.keys(data[0] || {}));
       for (const c of need) {
         if (!has.has(c)) {
@@ -68,46 +97,40 @@
         }
       }
 
-      // Coerce types
+      // Coerce and clean
       data.forEach(d => {
-        d.Year = String(d.Year);
-        // Polk can be numeric or string; if numeric 0/1, map to labels
+        d.Year = String(d.Year).trim();
         const p = (d.Polk ?? "").toString().trim();
         if (p === "1") d.Polk = "Polk";
         else if (p === "0") d.Polk = "Non-Polk";
         else d.Polk = p.length ? p : "Polk";
-        d.Cancer = +d.Cancer; // numeric Y
+        d.Cancer = +d.Cancer;
+        if ("Sig" in d) d.Sig = String(d.Sig).trim();
       });
 
-      // Build dropdown options
-      const sexes = Array.from(new Set(data.map(d => d.Sex))).filter(x => x!=null).sort();
-      const sites = Array.from(new Set(data.map(d => d.Site))).filter(x => x!=null).sort();
-
+      // Dropdowns
+      const sexes = Array.from(new Set(data.map(d => d.Sex))).filter(Boolean).sort();
+      const sites = Array.from(new Set(data.map(d => d.Site))).filter(Boolean).sort();
       const sexSel  = document.getElementById("sexSel");
       const siteSel = document.getElementById("siteSel");
       sexes.forEach(s => sexSel.add(new Option(s, s)));
       sites.forEach(s => siteSel.add(new Option(s, s)));
-
-      // pick first available by default
       if (sexes.length) sexSel.value = sexes[0];
       if (sites.length) siteSel.value = sites[0];
 
       function update() {
         const sex  = sexSel.value;
         const site = siteSel.value;
-
         const d = data.filter(r => r.Sex === sex && r.Site === site);
         const years = sortYearStrings(Array.from(new Set(d.map(r => r.Year))));
         const groups = Array.from(new Set(d.map(r => r.Polk)));
 
-        // Build series per Polk group
+        // Build Plotly traces
         const traces = groups.map(g => {
-          const dg = d.filter(r => r.Polk === g);
-          // order by Year
-          dg.sort((a,b) => {
-            const na=+a.Year, nb=+b.Year;
+          const dg = d.filter(r => r.Polk === g).sort((a, b) => {
+            const na = +a.Year, nb = +b.Year;
             if (!isNaN(na) && !isNaN(nb)) return na - nb;
-            return (''+a.Year).localeCompare(''+b.Year);
+            return ('' + a.Year).localeCompare('' + b.Year);
           });
           return {
             type: 'scatter',
@@ -115,39 +138,36 @@
             name: g,
             x: dg.map(r => r.Year),
             y: dg.map(r => r.Cancer),
-            hovertemplate: 'Year=%{x}<br>Cancer=%{y:.2f}<extra>'+g+'</extra>'
+            hovertemplate: 'Year=%{x}<br>Cancer=%{y:.2f}<extra>' + g + '</extra>'
           };
         });
 
         const layout = {
-          title: `Trend — Sex=${sex}, Site=${site}`,
-          xaxis: { title: 'Year', type: 'category', categoryorder: 'array', categoryarray: years },
-          yaxis: { title: 'Cancer rate' },
+          xaxis: { title: null, type: 'category', categoryorder: 'array', categoryarray: years },
+          yaxis: { title: 'Cancer Rate' },
           hovermode: 'x unified',
-          margin: { l:40, r:20, t:60, b:40 },
-          legend: { orientation: 'h', y:-0.2 }
+          margin: { l:40, r:20, t:20, b:40 },
+          legend: { orientation: 'h', y:-0.2, title: { text: '' } }
         };
 
-        Plotly.newPlot('chart', traces, layout, {displayModeBar: true, responsive: true});
+        Plotly.newPlot('chart', traces, layout, { displayModeBar: true, responsive: true });
 
-        // Notes placeholder (we can add your conditionals here later)
-        const n = document.getElementById('notes');
-        if (!d.length) {
-          n.textContent = "No data available for the chosen Sex & Site.";
+        // ----- Conditional footnote (Year == "2018-2022") -----
+        const fnCond = document.getElementById('fn-conditional');
+        const d2018 = d.filter(r => String(r.Year).trim() === "2018-2022");
+        if (d2018.length && 'Sig' in d2018[0]) {
+          const anySig = d2018.some(r => String(r.Sig).trim() === "1");
+          fnCond.textContent = anySig
+            ? "Significant Difference between Polk and other Iowa counties."
+            : "No significant difference between Polk and other Iowa counties.";
         } else {
-          const lastYear = years[years.length - 1];
-          const recent = d.filter(r => r.Year === lastYear);
-          const msg = recent.length
-            ? `Showing ${d.length} rows. Latest year ${lastYear}: ` +
-              recent.map(r => `${r.Polk}=${r.Cancer}`).join(', ')
-            : `Showing ${d.length} rows.`;
-          n.textContent = msg;
+          fnCond.textContent = "";
         }
       }
 
       sexSel.addEventListener('change', update);
       siteSel.addEventListener('change', update);
-      update(); // initial render
+      update();
     }).catch(err => {
       document.getElementById("chart").innerHTML =
         `<b>Load error:</b> ${err}`;
