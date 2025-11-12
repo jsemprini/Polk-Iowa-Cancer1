@@ -1,4 +1,4 @@
-Year,Sex,Site,County,Polk, Cancer ,Rate,SE,Lower CI,Upper CI,Count,Rate~Ratio,Ratio~Lower CI,Ratio~Upper CI,Ratio~P-Value,Pop,Rate,Sig
+Year,Sex,Site,County,Polk,Cancer,Rate,SE,Lower CI,Upper CI,Count,Rate~Ratio,Ratio~Lower CI,Ratio~Upper CI,Ratio~P-Value,Pop,Rate,Sig
 2003-2007,Male and female,All Sites,IA: Polk County (19153),Polk County, 492.7 ,492.7,5.2,482.6,502.9,"9,195",,,,,"1,998,485",492.7,0
 2003-2007,Male and female,All Sites,Not Polk,Not Polk, 488.6 ,488.6,1.8,485,492.2,"73,456",0.9917,0.9703,1.0138,0.4605,"12,843,459",488.6,0
 2003-2007,Male,All Sites,IA: Polk County (19153),Polk County, 562.3 ,562.3,8.6,545.5,579.5,"4,488",,,,,"975,346",562.3,0
@@ -319,3 +319,4 @@ Year,Sex,Site,County,Polk, Cancer ,Rate,SE,Lower CI,Upper CI,Count,Rate~Ratio,Ra
 2013-2017,Female,Female Genital System,Not Polk,Not Polk, 48.4 ,48.4,0.8,46.9,49.9,"4,263",1.0516,0.9629,1.1502,0.2705,"6,677,152",48.4,0
 2018-2022,Female,Female Genital System,IA: Polk County (19153),Polk County, 50.3 ,50.3,1.9,46.6,54.3,718,,,,,"1,242,353",50.3,0
 2018-2022,Female,Female Genital System,Not Polk,Not Polk, 47.9 ,47.9,0.8,46.5,49.5,"4,303",0.9525,0.878,1.0345,0.2488,"6,716,169",47.9,0
+
